@@ -14,7 +14,7 @@ with open("vector_store.pkl", "rb") as f:
 embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Gemini setup
-genai.configure(api_key="AIzaSyBVhhMXHbuGeAyEN85nB2cIWQC_n5UUWAQ")
+genai.configure(api_key="#########################")
 gemini = genai.GenerativeModel("gemini-2.0-flash")
 
 def ask_question(message, history):
